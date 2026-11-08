@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Abhijit Kapure — Resume</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 210mm; min-height: 297mm; }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #171714;
+    background: #f3f0e6;
+    padding: 13mm 15mm 11mm;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .top { display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 2px solid #171714; padding-bottom: 7mm; }
+  .name { font-family: Georgia, "Times New Roman", serif; font-size: 32pt; line-height: .9; letter-spacing: -.04em; font-weight: 400; }
+  .role { font-size: 8pt; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #ff5a36; margin-top: 3mm; }
+  .contact { text-align: right; font-size: 7.5pt; line-height: 1.65; color: #4d4b44; }
+  .contact a { color: #171714; text-decoration: none; border-bottom: .4pt solid #bdb7a8; }
+  .summary { font-size: 8pt; line-height: 1.5; color: #4d4b44; margin: 6mm 0 0; max-width: 175mm; }
+  .section { margin-top: 6mm; }
+  .section-title { font-size: 7pt; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: #ff5a36; border-bottom: .6pt solid #171714; padding-bottom: 1.5mm; margin-bottom: 3mm; }
+  .skills { font-size: 7.6pt; line-height: 1.55; color: #3f3d37; }
+  .skills b { color: #171714; }
+  .job { display: grid; grid-template-columns: 1fr 32mm; gap: 4mm; margin-bottom: 3.5mm; }
+  .job h3 { font-family: Georgia, "Times New Roman", serif; font-size: 11.5pt; line-height: 1; letter-spacing: -.01em; font-weight: 400; }
+  .job h3 span { font-family: Arial, Helvetica, sans-serif; font-size: 7.2pt; font-weight: 400; color: #6f6c63; letter-spacing: 0; }
+  .job .where { text-align: right; font-size: 6.8pt; line-height: 1.45; color: #6f6c63; text-transform: uppercase; letter-spacing: .04em; }
+  .job ul { margin: 1.5mm 0 0 3.5mm; padding: 0; }
+  .job li { font-size: 7.2pt; line-height: 1.45; color: #3f3d37; margin-bottom: .8mm; }
+  .project { margin-bottom: 3.2mm; }
+  .project-head { display: flex; justify-content: space-between; gap: 4mm; align-items: baseline; }
+  .project h3 { font-family: Georgia, "Times New Roman", serif; font-size: 10.5pt; font-weight: 400; line-height: 1; }
+  .project .stack { font-size: 6.4pt; color: #6f6c63; text-align: right; letter-spacing: .02em; }
+  .project p { font-size: 7.1pt; line-height: 1.45; color: #3f3d37; margin-top: 1mm; }
+  .project a { color: #171714; text-decoration: none; border-bottom: .4pt solid #bdb7a8; }
+  .bottom { display: grid; grid-template-columns: 1fr 1fr; gap: 8mm; margin-top: 5mm; border-top: .6pt solid #bdb7a8; padding-top: 3.5mm; }
+  .bottom h3 { font-family: Georgia, "Times New Roman", serif; font-size: 10pt; font-weight: 400; line-height: 1; }
+  .bottom p { font-size: 7pt; line-height: 1.45; color: #4d4b44; margin-top: 1.4mm; }
+  .foot { margin-top: 4mm; font-size: 6.4pt; color: #7b776c; letter-spacing: .04em; text-transform: uppercase; }
+</style>
+</head>
+<body>
+  <div class="top">
+    <div><div class="name">Abhijit Kapure</div><div class="role">AI / Data Engineer · Internship</div></div>
+    <div class="contact">
+      <a href="mailto:abhijitchandrakantkapure@gmail.com">abhijitchandrakantkapure@gmail.com</a><br>
+      <a href="https://linkedin.com/in/abhijit-kapure-0a380b312">linkedin.com/in/abhijit-kapure-0a380b312</a><br>
+      <a href="https://github.com/AbhijitK20">github.com/AbhijitK20</a><br>
+      Mumbai, India · Remote-friendly
+    </div>
+  </div>
+
+  <p class="summary">Computer Science &amp; Data Science undergraduate focused on AI reliability, data systems, and full-stack delivery. Builds model behavior into products people can trust — from LoRA fine-tunes and evaluation loops to production-style TypeScript and Python systems.</p>
+
+  <div class="section">
+    <div class="section-title">Skills</div>
+    <div class="skills">
+      <b>Languages:</b> Python, TypeScript, JavaScript, Rust, SQL<br>
+      <b>Backend:</b> FastAPI, Node.js, Frappe Framework, ERPNext, REST APIs, JWT, RBAC<br>
+      <b>Frontend:</b> React, Next.js, Tailwind CSS<br>
+      <b>AI/ML &amp; security:</b> GRU, scikit-learn, LoRA fine-tuning, BFCL evaluation, static analysis, drift monitoring<br>
+      <b>Data &amp; cloud:</b> PostgreSQL, Redis, AWS (EC2, S3, IAM), Docker, Linux, Git, GitHub Actions, PyO3
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Experience</div>
+    <div class="job">
+      <div><h3>Software Development Intern <span>· NGAITA Corporation</span></h3><ul>
+        <li>Develop and customize Frappe Framework and ERPNext solutions, translating requirements into data models, workflows, integrations, and backend services.</li>
+        <li>Support Partner Ecosystem Management architecture with role-based access, partner isolation, API/event contracts, and auditability across CRM, ERPNext, and communication systems.</li>
+      </ul></div>
+      <div class="where">Jun 2026 — Present<br>California, USA · Remote</div>
+    </div>
+    <div class="job">
+      <div><h3>AI Evaluation / Software Engineering <span>· Project Dynamo</span></h3><ul>
+        <li>Designed benchmark tasks across debugging, security, and ML infrastructure using Docker; built reference solutions with artifact validation and anti-cheat protections through CI and QC gates.</li>
+      </ul></div>
+      <div class="where">Jul 2026<br>California, USA · Remote</div>
+    </div>
+    <div class="job">
+      <div><h3>Data Operations Intern <span>· Winzera Pvt. Ltd.</span></h3><ul>
+        <li>Built Python/PostgreSQL ETL workflows and FastAPI reporting services for operational analytics; improved reporting accuracy by 20%.</li>
+      </ul></div>
+      <div class="where">Aug 2024 — Feb 2025<br>Mumbai, India</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Selected projects</div>
+    <div class="project">
+      <div class="project-head"><h3>Qwen3-4B Tool-Calling &amp; Terminal Agent</h3><div class="stack">Python · LoRA · GRPO · BFCL</div></div>
+      <p>Taught Qwen3-4B when not to call a tool, then extended it into a terminal agent. 90.0% BFCL v4 Irrelevance Detection; 90.7% hard-abstention vs 53.5% for Qwen3-8B; 86.0 BFCL parallel. <a href="https://github.com/AbhijitK20/qwen3-4b-tools-v1">GitHub ↗</a></p>
+    </div>
+    <div class="project">
+      <div class="project-head"><h3>Sentinel — Verify-First Code Review</h3><div class="stack">Rust · PyO3 · Python · SARIF</div></div>
+      <p>Rust/PyO3 analysis core with 41 security, correctness, and compliance rules; every finding includes a reproduction test, fix suggestion, and confidence score. CLI, SARIF, GitHub Action, and pre-commit integrations. <a href="https://github.com/AbhijitK20/sentinel">GitHub ↗</a></p>
+    </div>
+    <div class="project">
+      <div class="project-head"><h3>TrustBridge — Verification &amp; Protected Payments</h3><div class="stack">Next.js · TypeScript · Prisma · PostgreSQL</div></div>
+      <p>Four-state verification model, evidence tiers, referee chat, browser extension, and protected-deal flow for deals made in chat, email, and job boards. <a href="https://github.com/AbhijitK20/trustbridge">GitHub ↗</a></p>
+    </div>
+    <div class="project">
+      <div class="project-head"><h3>AI Interviewer — Adaptive Technical Interviews</h3><div class="stack">React · Spring Boot · FastAPI · Gemini</div></div>
+      <p>Live multi-service interview platform with JWT auth, AI question generation, text/voice/coding modes, and PDF report export. <a href="https://ai-interviewer-rho-hazel.vercel.app">Live demo ↗</a></p>
+    </div>
+  </div>
+
+  <div class="bottom">
+    <div><h3>Education</h3><p>Saraswati College of Engineering<br>B.Tech, Computer Science &amp; Engineering (Data Science)<br>GPA 8.82/10 · Expected 2028</p></div>
+    <div><h3>Recognition</h3><p>1st Place — Business Model Masters<br>Institution's Innovation Council, Saraswati College of Engineering · 2025–26</p></div>
+  </div>
+  <div class="foot">Public resume · No phone number or home address included · Updated November 2026</div>
+</body>
+</html>
